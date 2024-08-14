@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>document</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Register here</legend>
+            <h1> im going to join in 10k coders &#128682; and wanna learn subject and gonna become a developer &#128187; </h1>
+            <form action="./hi.txt">
+                <pre>
+                    <div style="background-color: aqua;">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="enter your name" pattern="[a-zA-z]{3,}" required>
+                    </div>
+                    <div style="background-color: blue;">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="enter your email" pattern="[a-z0-9._]+@[a-z]+.\[a-z]{8,}" required>
+
+                   </div>
+                   <div style="background-color: bisque;">
+                    <label for="password">Password</label>
+                    <input type="password" id="password"  pattern="[a-zA-Z0-9@#$%^&*]{8,}" required>
+                   </div>
+
+                   <div style="background-color: beige;">
+                    <label for="food" >choose your favourite food</label>
+                    <select id="food" >
+                        <option value="biryani" selected>biryani</option>
+                        <option value=" icecream" disabled>icecream</option>
+                        <option value="cooldrinks">cooldrinks</option>
+                        <option value="cakes">cakes</option>
+                    </select>
+                   </div>
+                   <div style="background-color: coral;">
+                    <label for="timing">timings</label>
+                    <input list="timings" id="timing">
+                    <datalist id="timings">
+                        <option value="8:00-9:30">
+                        <option value="10:00-12:30">
+                        <option value="2:30-4:00">
+                        <option value="4:30-6:30">
+
+                    </datalist>
+                   </div>
+                   <div style="background-color: blueviolet;">
+                   <label for="file" >choose files</label>
+                   <input type="file" id="file" multiple>
+                   </div>
+
+                   <div style="background-color: cyan;">
+                    <label for="male">male:--</label><input type="radio"  name="gender" value="male">
+                    <label for="female">female:--</label><input type="radio" name="gender" value="female">
+                   </div>
+                   
+                  <p>
+                    <input type="checkbox" >i agree to this <a href="">terms</a> and<a href="">conditions</a> </p>
+                  <div style="background-color: crimson;">
+                  <textarea name="address" rows="10" cols="50"readonly >
+                    2-35
+                    bkpalli village
+                    vishakapatnam
+                  </textarea>
+                  </div>
+                  <button type="submit">submit</button>
+
+
+
+
+                </pre>
+            </form>
+            
+        </fieldset>
+    </body>
+</html>
